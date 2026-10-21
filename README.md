@@ -1,11 +1,11 @@
-# Crystalized: Crystal Blitz
+# Radiance: Crystal Wars
 Recreation of TubNet Crystal Rush
 
 # How to use
-Crystal Blitz is currently built for 1.21.11 Paper, This plugin may or may not work on newer or older versions, use incompatible versions at your own risk.
+Crystal Wars is currently built for 1.21.11 Paper, This plugin may or may not work on newer or older versions, use incompatible versions at your own risk.
 
 Dependencies: <br>
-[Crystalized Essentials](https://github.com/Project-Crystalized/crystalized-essentials) <br>
+[Radiance Essentials](https://github.com/Project-Radiance/radiance-essentials) <br>
 [Crystalized Lobby plugin](https://github.com/Project-Crystalized/lobby_plugin) <br>
 Floodgate <br>
 
