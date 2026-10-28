@@ -16,7 +16,7 @@ public class ScoreboardManager {
     public ScoreboardManager(Player player) {
         FloodgateApi floodgateapi = FloodgateApi.getInstance();
         Scoreboard scoreboard = Bukkit.getScoreboardManager().getNewScoreboard();
-        Component title = text("Crystal Blitz").color(NamedTextColor.LIGHT_PURPLE).append(text(" \uE12F").color(NamedTextColor.WHITE));
+        Component title = text("Crystal Wars").color(NamedTextColor.DARK_RED).append(text(" \uE12F").color(NamedTextColor.WHITE));
         Objective obj = scoreboard.registerNewObjective("main", Criteria.DUMMY, title);
         obj.setDisplaySlot(DisplaySlot.SIDEBAR);
 
@@ -57,7 +57,7 @@ public class ScoreboardManager {
         obj.getScore("1").customName(text(""));
 
         obj.getScore("0").setScore(0);
-        obj.getScore("0").customName(text("crystalized.cc ").color(TextColor.color(0xc4b50a)).append(text("(ServID)").color(NamedTextColor.GRAY)));
+        obj.getScore("0").customName(text("Radiance.Team ").color(TextColor.color(0xc4b50a)).append(text("(ServID)").color(NamedTextColor.GRAY)));
 
         Team blue = scoreboard.registerNewTeam("blue");
         blue.setAllowFriendlyFire(false);
@@ -198,7 +198,7 @@ class QueueScoreboard {
 
         FloodgateApi floodgateapi = FloodgateApi.getInstance();
         Scoreboard scoreboard = Bukkit.getScoreboardManager().getNewScoreboard();
-        Component title = text("Crystal Blitz").color(NamedTextColor.LIGHT_PURPLE).append(text(" \uE12F").color(NamedTextColor.WHITE));
+        Component title = text("Crystal Wars").color(NamedTextColor.DARK_RED).append(text(" \uE12F").color(NamedTextColor.WHITE));
         Objective obj = scoreboard.registerNewObjective("main", Criteria.DUMMY, title);
         obj.setDisplaySlot(DisplaySlot.SIDEBAR);
 
@@ -218,7 +218,7 @@ class QueueScoreboard {
         obj.getScore("1").customName(text(""));
 
         obj.getScore("0").setScore(0);
-        obj.getScore("0").customName(text("crystalized.cc ").color(TextColor.color(0xc4b50a)).append(text("(ServID)").color(NamedTextColor.GRAY)));
+        obj.getScore("0").customName(text("Radiance.Team ").color(TextColor.color(0xc4b50a)).append(text("(ServID)").color(NamedTextColor.GRAY)));
 
         player.setScoreboard(scoreboard);
 

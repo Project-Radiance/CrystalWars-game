@@ -102,11 +102,11 @@ public class PlayerListener implements Listener {
             //TODO make this look better - Callum. (Good enough in my opinion just need to update player displays to Crystal Wars everywhere later - Mish)
             p.sendPlayerListHeaderAndFooter(
                     //Header
-                    text("\nCrystalized: Crystal Blitz\n"),
+                    text("\nProject Radiance: Crystal Wars\n"),
 
                     //Footer
                     text("\n")
-                            .append(text("Crystal Blitz Version: " + crystalBlitz.getInstance().getDescription().getVersion()))
+                            .append(text("Crystal Wars Version: " + crystalBlitz.getInstance().getDescription().getVersion()))
                             .append(text("\n"))
             );
             new QueueScoreboard(p);

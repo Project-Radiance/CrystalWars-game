@@ -89,7 +89,7 @@ public final class crystalBlitz extends JavaPlugin {
         PacketEvents.getAPI().init();
         Lobby_plugin.getInstance().doNametagsDespitePassive = true;
         this.getLifecycleManager().registerEventHandler(LifecycleEvents.COMMANDS, commands -> {
-            LiteralArgumentBuilder<CommandSourceStack> command = Commands.literal("crystalblitz");
+            LiteralArgumentBuilder<CommandSourceStack> command = Commands.literal("crystalwars");
             command.then(Commands.literal("start").requires(sender -> sender.getSender().hasPermission("minecraft.command.op"))
                     .executes(ctx -> {
                         if (crystalBlitz.getInstance().gamemanager != null || crystalBlitz.getInstance().isCountingDown) {

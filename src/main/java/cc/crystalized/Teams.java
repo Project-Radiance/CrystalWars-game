@@ -416,7 +416,7 @@ class TeamStatus {
 
         if (Bukkit.getOnlinePlayers().size() == 1) {
             Bukkit.getServer().sendMessage(text(
-                    "1 player detected, To end the game, run \"/crystalBlitz end\" as a player with op. The game will not end automatically due to player size"));
+                    "1 player detected, To end the game, run \"/crystalwars end\" as a player with op. The game will not end automatically due to player size"));
             return;
         }
 

@@ -244,9 +244,9 @@ public class GameManager {
                 new QueueScoreboard(p);
                 p.sendPlayerListHeaderAndFooter(
                         //Header
-                        text("\nCrystalized: Crystal Blitz\n"),
+                        text("\nCrystalized: Crystal Wars\n"),
                         //Footer
-                        text("\n").append(text("Crystal Blitz Version: " + cbPlugin.getDescription().getVersion())).append(text("\n"))
+                        text("\n").append(text("Crystal Wars Version: " + cbPlugin.getDescription().getVersion())).append(text("\n"))
                 );
             }
         }
@@ -599,7 +599,7 @@ class TabMenu {
 
         p.sendPlayerListHeader(
                 text("\n")
-                        .append(text("Crystalized: Crystal Blitz").color(LIGHT_PURPLE))
+                        .append(text("Project Radiance: Crystal Wars").color(DARK_RED))
                         .append(text("\n"))
         );
 
@@ -624,7 +624,7 @@ class TabMenu {
             }
         }
         addToStatsString(text("\n---------------------------------------------------\n\n").color(GRAY)
-                .append(text("Crystal Blitz Version: " + crystalBlitz.getInstance().getDescription().getVersion())).color(DARK_GRAY).append(text("\n"))
+                .append(text("Crystal Wars Version: " + crystalBlitz.getInstance().getDescription().getVersion())).color(DARK_GRAY).append(text("\n"))
         );
 
         p.sendPlayerListFooter(StatsPlayerList);

@@ -39,7 +39,7 @@ public class MapData {
             this.game = json.get("game").getAsString();
 
             if (!this.game.equals("crystalblitz")) {
-                Bukkit.getLogger().log(Level.SEVERE, "You've inserted a game config for \"" + this.game + "\", Please update the world file to be compatible with Crystal Blitz");
+                Bukkit.getLogger().log(Level.SEVERE, "You've inserted a game config for \"" + this.game + "\", Please update the world file to be compatible with Crystal Wars");
                 throw new Exception();
             }
             if (ConfigVersion != 2) {
